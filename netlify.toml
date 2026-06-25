@@ -1,12 +1,3 @@
 [build]
-  command = "echo 'Deploying DocTA'"
   functions = "netlify/functions"
   publish = "."
-
-[env]
-  ANTHROPIC_API_KEY = ""
-
-[[redirects]]
-  from = "/*"
-  to = "/docta.html"
-  status = 200
